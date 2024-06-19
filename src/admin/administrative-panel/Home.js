@@ -1,13 +1,13 @@
-// src/admin/administrative-panel/Home.js
-
 import React from 'react';
+import Header  from './Header'
 
 const Home = () => {
   return (
-    <div>
+     <>
+      <Header/>
       <h1>Admin Home</h1>
       <p>Welcome to the administrative panel.</p>
-    </div>
+      </>
   );
 };
 
